@@ -1,0 +1,20 @@
+{
+	"name": "Covid",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "all-states-history.csv",
+				"container": "csv"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
