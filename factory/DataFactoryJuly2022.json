@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryJuly2022",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d850ce10-397e-44b8-adab-f65c9d3a7c72",
+		"tenantId": "289dff43-a8ea-4a01-8983-d49b0caeef1c"
+	}
+}
